@@ -101,5 +101,5 @@ object FluwxRequestHandler {
         }
     }
 
-    private fun defaultFlutterActivityAction(context: Context): String = "$context.packageName.FlutterActivity"
+    private fun defaultFlutterActivityAction(context: Context): String = "${context.packageName}.FlutterActivity"
 }
